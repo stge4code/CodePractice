@@ -1,0 +1,44 @@
+14
+add global a
+create foo global
+add foo b
+get foo a
+get foo c
+add foo c
+create bar foo
+add bar a
+get bar a
+get bar b
+create new bar
+get new c
+add global t
+get new t
+
+16
+create foo1 global
+create foo2 global
+create bar1 foo1
+create bar2 foo2
+create new1 bar1
+create new2 bar2
+add global a
+add global b
+add foo1 a
+add foo2 b
+add bar1 a
+add bar2 b
+add new1 a
+add new2 b
+get new1 b
+get bar2 foo2
+
+9
+add global a
+create foo global
+add foo b
+get foo a
+get foo c
+create bar foo
+add bar a
+get bar a
+get bar b
